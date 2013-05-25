@@ -1,0 +1,124 @@
+/*  
+Theme Name: Hope Bridges Child Theme
+Theme URI: https://github.com/eightbit/standard-child-theme-kit
+Version: 3.2.1
+Description: This is a child theme kit for Standard 3.
+Author: 8BIT
+Author URI: http://8bit.io
+Author Email: sales@8bit.io
+License: GNU General Public License v3.0 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Template: standard
+*/
+
+
+/* Import Standard Styles
+---------------------------------------------------------------------------------- */
+
+@import url( '../standard/style.css' );
+@import url( '../standard/css/theme-responsive.css' );
+
+/* Uncomment the line below to enable child theme right-to-left language support. */
+/* @import url( '../standard/rtl.css' ); */
+
+
+/* Customizations
+---------------------------------------------------------------------------------- */
+
+body {
+	background: url("images/body-bg.png") no-repeat center top #291D01;
+}
+
+a {
+	color: #000;
+}
+
+a:hover  { 
+	color: #ff7803; 
+}
+
+.navbar .nav>li>a {
+	color: #fff;
+}
+
+.navbar .nav>li>a:hover {
+	color: #ff7803;
+}
+
+.post.format-standard, #comments, #pings, #no-comments, #respond, #author-box {
+	background: #fff1cc url("images/postboxbg.jpg") repeat-x;
+}
+
+#author-box {
+	border: none;
+}
+
+.post-title a {
+	color: #fff;
+}
+
+.post-title a:hover {
+	color: #ff7803;
+}
+
+.post-header-meta {
+	color: #000;
+}
+
+.post-meta {
+	color: #000;
+}
+
+input[type="submit"] {
+	background: #ff7803;
+	background-image: none;
+	color: #fff;
+	border-color: #ff7803;
+	text-shadow: none;
+}
+
+#footer #sub-floor {
+	background: #291D01;
+}
+
+#footer #sub-floor #credit {
+	color: #fff;
+}
+
+#footer #sub-floor #credit a {
+	color: #fff;
+}
+
+#footer #sub-floor #credit a:hover {
+	text-decoration: underline;
+}
+
+/* Media Queries
+---------------------------------------------------------------------------------- */
+
+/* Smartphones */
+@media (max-width: 480px) {
+
+}
+
+/* Tablet & Mobile */
+@media (max-width: 979px) {	
+			
+}
+
+/* Mobile to Tablet */
+@media only screen and (max-width: 767px) {
+	
+}
+
+
+/* Landscape Tablets */
+@media (min-width: 768px) and (max-width: 979px) {
+
+}
+
+/* Desktop */
+@media (min-width: 980px) {
+	
+}
+
