@@ -1,4 +1,4 @@
-/*  
+/*
 Theme Name: Hope Bridges Child Theme
 Theme URI: https://github.com/eightbit/standard-child-theme-kit
 Version: 3.2.1
@@ -25,16 +25,14 @@ Template: standard
 /* Customizations
 ---------------------------------------------------------------------------------- */
 
-body {
-	background: url("images/body-bg.png") no-repeat center top #291D01;
-}
 
 a {
-	color: #000;
+	color: #ff7803;
 }
 
-a:hover  { 
-	color: #ff7803; 
+a:hover  {
+	text-decoration: underline;
+	color: #ff7803;
 }
 
 .navbar .nav>li>a {
@@ -45,16 +43,24 @@ a:hover  {
 	color: #ff7803;
 }
 
-.post.format-standard, #comments, #pings, #no-comments, #respond, #author-box {
+.post, .post.format-standard, #comments, #pings, #no-comments, #respond, #author-box {
 	background: #fff1cc url("images/postboxbg.jpg") repeat-x;
 }
+
+.home .page .post-header {
+    display: none;
+    }
+
+.home .page {
+    padding-top:    10px;
+    }
 
 #author-box {
 	border: none;
 }
 
 .post-title a {
-	color: #fff;
+	color: #000;
 }
 
 .post-title a:hover {
@@ -102,13 +108,13 @@ input[type="submit"] {
 }
 
 /* Tablet & Mobile */
-@media (max-width: 979px) {	
-			
+@media (max-width: 979px) {
+
 }
 
 /* Mobile to Tablet */
 @media only screen and (max-width: 767px) {
-	
+
 }
 
 
@@ -119,6 +125,6 @@ input[type="submit"] {
 
 /* Desktop */
 @media (min-width: 980px) {
-	
+
 }
 
