@@ -25,26 +25,63 @@ Template: standard
 /* Customizations
 ---------------------------------------------------------------------------------- */
 
+.standard-ad-300x250 img .fademe img:hover, a img:hover {
+    opacity: 0.75;
+}
 
 a {
 	color: #ff7803;
 }
 
 a:hover  {
-	text-decoration: underline;
 	color: #ff7803;
+	text-decoration: underline;
 }
 
 .navbar .nav>li>a {
 	color: #fff;
+    font-weight: lighter;
+	font-size: 18px;
 }
 
 .navbar .nav>li>a:hover {
 	color: #ff7803;
 }
 
+.navbar .nav .active > a, .navbar .nav .active > a:hover, .navbar .nav .current-menu-item > a, .navbar .nav .current-menu-item > a:hover {
+    color: #ff7803;
+}
+
+.navbar-inverse .navbar-inner {
+    background-color: #291d01;
+    background-image: none;
+    box-shadow: none;
+}
+
 .post, .post.format-standard, #comments, #pings, #no-comments, #respond, #author-box {
 	background: #fff1cc url("images/postboxbg.jpg") repeat-x;
+}
+
+.post.format-link .post-header .entry-content {
+    background-image: url("images/icn-link-dark.png");
+}
+
+.post.format-link .post-header {
+    background-color: transparent;
+    background-image: none;
+}
+
+.post.format-link .post-title a {
+    color: #ff7803;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.post.format-link .post-title a:hover {
+    color: #ff7803;
+    text-decoration: underline;
+    font-weight: normal;
+    font-size: 30px;
 }
 
 .home .page .post-header {
@@ -52,15 +89,16 @@ a:hover  {
     }
 
 .home .page {
-    padding-top:    10px;
+    padding-top: 10px;
     }
 
 #author-box {
 	border: none;
 }
 
-.post-title a {
-	color: #000;
+.post-title  {
+    color: #291D01;
+    font-weight: 100;
 }
 
 .post-title a:hover {
@@ -75,11 +113,24 @@ a:hover  {
 	color: #000;
 }
 
+blockquote {
+    border-left: 5px solid #ff7803;
+    font-weight: 200;
+}
+
+.post-header {
+    border-bottom: 1px solid #FF7803;
+}
+
+.post-meta {
+    border-top: 1px solid #FF7803;
+}
+
 input[type="submit"] {
+	border-color: #ff7803;
 	background: #ff7803;
 	background-image: none;
 	color: #fff;
-	border-color: #ff7803;
 	text-shadow: none;
 }
 
